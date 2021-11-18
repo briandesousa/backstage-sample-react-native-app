@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-sample-react-native-app
+  description: Sample React web app
+  labels:
+    system: web-apps
+  tags:
+    - javascript
+    - react
+  links:
+    - url: https://github.com/briandesousa/backstage-sample-react-native-app
+      title: Backstage Sample React Native App
+      icon: code
+  annotations:
+    bitrise.io/app: 'backstage-sample-react-native-app'
+spec:
+  type: website
+  lifecycle: experimental
+  owner: briandesousa
